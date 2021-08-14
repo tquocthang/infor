@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "BeVietnam";
+  src: url("../fonts/BeVietnam-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BeVietnam";
+  src: url("../fonts/BeVietnam-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  width: 100%;
+  font-family: BeVietnam;
+  color: white;
+  background: #181818;
+}
+
+#lang img{
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+#info {
+  width: 100%;
+  border-bottom: 3px solid #000;
+}
+
+#infoc {
+  width: 100%;
+}
+
+#inforow {
+  width: 100%;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+
+#infol {
+  width: 40%;
+  text-align: right;
+  margin-right: 15px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#infor{
+  width: 75%;
+  text-align: left;
+  margin-left: 15px;
+  font-size: 1.5rem;
+}
+
+#topb{
+  width: 100%;
+  border-bottom: 2px solid #fff;
+}
+
+#top {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+
+#topl img{
+  width: 135px;
+  height: 135px;
+}
+
+#topr {
+  padding-left: 15px;
+}
+
+#topr button{
+  height: 30px; 
+  width: 150px; 
+  font-size: 15px; 
+  color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: #8E2DE2;
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+}
+
+#rowb {
+  width: 100%;
+  border-bottom: 3px solid #000;
+}
+
+#row {
+  width: 100%;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+
+#rowl img{
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+}
+
+#rowr {
+  padding-left: 1rem;
+  text-align: left;
+}
+
+#td {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+#mt {
+  color: #d4ff00;
+  font-size: 1.65rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#bot {
+  color: #949494;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.bbb{
+  border-bottom: 2px solid #fff;
+}
